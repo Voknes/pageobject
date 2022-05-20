@@ -10,9 +10,6 @@ class BasketPageLocators():
     BASKET_EMPTY = (By.CSS_SELECTOR, "#content_inner > p")
     BASKET_NOT_EMPTY = (By.CSS_SELECTOR, "#content_inner > #basket_formset > .basket-items")
 
-# class MainPageLocators():
-#     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
-
 class LoginPageLocators():
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
     REGISTER_FORM = (By.CSS_SELECTOR, "#register_form")
