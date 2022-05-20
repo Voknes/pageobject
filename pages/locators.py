@@ -13,3 +13,4 @@ class ProductPageLocators():
     PRICE_OF_BASKET_IN_BSK = (By.XPATH,"//*[@id='messages']/div[3]/div/p[1]/strong")
     TITLE_OF_PRODUCT = (By.CSS_SELECTOR, ".product_main > h1")
     PRICE_OF_PRODUCT = (By.CSS_SELECTOR, ".product_main > .price_color")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert-success")
